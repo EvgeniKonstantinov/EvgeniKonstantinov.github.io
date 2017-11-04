@@ -78,7 +78,9 @@ strong {font-weight:800;}
     height: auto;
 }
 nav{
-    background-color: black;
+    background-image: url(../img/background.png);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.32);
+    z-index: 2;
 }
 .ri-grid ul {
     list-style: none;
@@ -117,7 +119,7 @@ nav{
     position: relative;
     display: block;
     overflow: hidden;
-    background: #000;
+
 }
 
 .ri-grid ul li a{
@@ -143,7 +145,7 @@ nav{
     background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #333;
+
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -163,7 +165,7 @@ nav{
 
 
 .landingMenu ul {
-    background:#000;
+
     display:block;
     width:800px;
     margin:auto;
@@ -178,7 +180,7 @@ nav{
 }
 .landingMenu .cur {
     color:#fff !important;
-    background: black;
+    
 }
 
 .landingItem {
