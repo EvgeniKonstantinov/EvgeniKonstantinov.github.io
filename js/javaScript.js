@@ -1,34 +1,39 @@
+$(window).resize(function() {
+    width = $(window).width();
+    if (width >= 600) {
+        $(window).scroll(function () {
+            var st = $(this).scrollTop();
+            var bo = $(this).scrollTop();
+            if ( bo > 700 ) {
+                $("nav").css("display", "block");
+            } else {
+                $("nav").css("display", "none");
+            };
 
 
-$(window).scroll(function () {
-    var st = $(this).scrollTop();
-    var bo = $(this).scrollTop();
-    if ( bo > 700 ) {
-        $("nav").css("display", "block");
-    } else {
-        $("nav").css("display", "none");
-    };
+            console.log(st);
+            $(".logo_img .img_dwn").css({
+                "transform" : "translate(0%, "+ st/8 + "%"
+            });
 
+            $(".sect_2").css({
+                "transform" : "translate(0%, -"+ st/80 + "%"
+            });
 
-    console.log(st);
-    $(".logo_img .img_dwn").css({
-        "transform" : "translate(0%, "+ st/8 + "%"
-    });
-
-    $(".sect_2").css({
-        "transform" : "translate(0%, -"+ st/80 + "%"
-    });
-    
-    $(".sect_3 ").css({
-        "transform" : "translate(0%, -"+ st/80 + "%"
-    });
-    $(".sect_4").css({
-        "transform" : "translate(0%, -"+ st/80 + "%"
-    });
-    $(".sect_5").css({
-        "transform" : "translate(0%, -"+ st/80 + "%"
-    });
+            $(".sect_3 ").css({
+                "transform" : "translate(0%, -"+ st/80 + "%"
+            });
+            $(".sect_4").css({
+                "transform" : "translate(0%, -"+ st/80 + "%"
+            });
+            $(".sect_5").css({
+                "transform" : "translate(0%, -"+ st/80 + "%"
+            });
+        });
+    }
 });
+
+
 
 /*
  * jQuery liLanding v 2.1
