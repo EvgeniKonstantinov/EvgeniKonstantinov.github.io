@@ -11,7 +11,7 @@ $(window).scroll(function () {
 
 
     console.log(st);
-    $(".logo_img").css({
+    $(".logo_img .img_dwn").css({
         "transform" : "translate(0%, "+ st/8 + "%"
     });
 
@@ -26,7 +26,7 @@ $(window).scroll(function () {
         "transform" : "translate(0%, -"+ st/80 + "%"
     });
     $(".sect_").css({
-        "transform" : "translate(0%, -"+ st/80 + "%"
+        "transform" : "translate(0%, "+ st/120 + "%"
     });
 });
 
