@@ -12,11 +12,11 @@ $(window).scroll(function () {
 
     console.log(st);
     $(".logo_img").css({
-        "transform" : "translate(0%, "+ st/4 + "%"
+        "transform" : "translate(0%, "+ st/8 + "%"
     });
 
-    $(".sect_2 img").css({
-        "transform" : "translate(0%, "+ st/50 + "%"
+    $(".sect_2").css({
+        "transform" : "translate(0%, -"+ st/80 + "%"
     });
     
     $(".sect_3 ").css({

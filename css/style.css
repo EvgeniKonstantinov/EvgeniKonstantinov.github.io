@@ -29,7 +29,7 @@ body{
 @media screen and (min-width: 1680px){
     .foto{
         width: 13vw;
-        height: 230px;
+        height: 200px;
     }
     .foto_div1{
         width: 13vw;
@@ -47,7 +47,7 @@ section{
 .sect_1{
     background-color: black;
     background-size: cover;
-
+    overflow:hidden;
 }
 img{
     background-size: cover;
@@ -56,8 +56,8 @@ img{
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -70px;
-    margin-left: -70px;
+    margin-top: -370px;
+    margin-left: -370px;
 }
 .text_section_2{
     font-size: 42px;
@@ -69,8 +69,10 @@ img{
 }
 
 .sect_2{
-    background-color: black;
-    background-size: cover;
+    background:url(../img/2.jpg) 70% 0% no-repeat fixed;
+    width:100%;
+
+    overflow:hidden;
 
 }
 .sect_2 img{
@@ -79,7 +81,7 @@ img{
     top: -200px;
 }
 .sect_3 {
-    background:url(../img/3.jpg) 50% 0% no-repeat fixed;
+    background:url(../img/3.jpg) 70% 0% no-repeat fixed;
     width:100%;
     overflow:hidden;
 }
