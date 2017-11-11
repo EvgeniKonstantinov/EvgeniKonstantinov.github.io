@@ -25,8 +25,8 @@ $(window).scroll(function () {
     $(".sect_4").css({
         "transform" : "translate(0%, -"+ st/80 + "%"
     });
-    $(".sect_").css({
-        "transform" : "translate(0%, "+ st/120 + "%"
+    $(".sect_5").css({
+        "transform" : "translate(0%, -"+ st/80 + "%"
     });
 });
 

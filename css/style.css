@@ -78,7 +78,7 @@ img{
 
 .sect_2{
     background:url(../img/2.jpg) 70% 0% no-repeat fixed;
-    width:100%;
+    width:100vw;
 
     overflow:hidden;
 
@@ -86,16 +86,22 @@ img{
 .sect_2 img{
     position: absolute;
     width: 100%;
-    top: -200px;
+
 }
 .sect_3 {
-    background:url(../img/3.jpg) 70% 0% no-repeat fixed;
-    width:100%;
+    position: absolute;
+    background-color: black;
+    width:100vw;
     overflow:hidden;
 }
 .sect_5{
+
     overflow: hidden;
-    top: -300px;
+
+}
+.slider{
+    top: 200px !important;
+
 }
 .instagrid{
     z-index: 3;
@@ -135,7 +141,7 @@ nav{
 
 }
 .sliders {
-    background:url(../img/4.jpg) 50% 0% no-repeat fixed;
+    background:url(../img/3.jpg) 50% 0% no-repeat fixed;
     width:100%;
     overflow:hidden;
 }
