@@ -19,7 +19,7 @@ $(window).scroll(function () {
         "transform" : "translate(0%, "+ st/50 + "%"
     });
     
-    $(".sect_3 img").css({
+    $(".sect_3 ").css({
         "transform" : "translate(0%, -"+ st/80 + "%"
     });
     $(".sect_4").css({
