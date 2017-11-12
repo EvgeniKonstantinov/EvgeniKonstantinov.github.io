@@ -170,6 +170,7 @@ section {
     }
     .sect_2{
         background:url(../img/2.jpg) ;
+        background-size: cover;
         width: 100vw;
         height: 50vh;
         overflow:hidden;
@@ -187,7 +188,7 @@ section {
     .sect_4{
         background-color: #0f0f0f;
         background:url(../img/32.jpg);
-        background-size: 100vw;
+        background-size: cover;
         width: 100vw;
         height: 50vh;
         overflow:hidden;
