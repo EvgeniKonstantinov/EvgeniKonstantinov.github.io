@@ -1,34 +1,37 @@
 body{
-
+ padding: 0 !important;
+}
+div{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 .no_padding{
     padding: 0 !important;
+
 }
-.foto{
-    width: 130px;
-    height: 100px;
-}
-.foto2{
-    width: 260px;
-    height: 200px;
-}
-.foto3{
-    width: 130px;
-    height: 200px;
-}
-.foto_div1{
-    width: 130px;
-}
-.img_for_slide1{
-    width: 130px;
-}
-.img_for_slide2{
-    width: 260px;
-}
-.img_for_slide3{
-    position: relative;
-    width: 13vw;
-    height: 260px;
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .foto{
+        width: 160px;
+        height: 100px;
+    }
+    .foto2{
+        width: 320px;
+        height: 200px;
+    }
+    .foto3{
+        width: 130px;
+        height: 200px;
+    }
+    .foto_div1{
+        width: 130px;
+    }
+    .img_for_slide1{
+        width: 160px;
+    }
+    .img_for_slide2{
+        width: 320px;
+    }
 }
 @media screen and (min-width: 1201px) and (max-width: 1680px) {
     .foto{
@@ -37,7 +40,7 @@ body{
     }
     .foto2{
         width: 26vw;
-        height: 200px;
+        height: 260px;
     }
     .foto3{
         width: 13vw;
@@ -58,7 +61,7 @@ body{
         height: 260px;
     }
 }
-@media screen and (min-width: 1680px){
+@media screen and (min-width: 1681px){
     .foto{
         width: 13vw;
         height: 200px;
@@ -98,11 +101,27 @@ body{
         margin-left: -370px;
 
     }
+    .img_dwn{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        margin-top: -45px;
+        margin-left: -45px;
+    }
+    .text_section_2{
+        font-size: 42px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -70px;
+        margin-left: -70px;
+    }
     .sect_2{
         background:url(../img/2.jpg) 50% 0% no-repeat fixed;
         width: 100vw;
         overflow:hidden;
-        background-size: 100vw
+
+
     }
     .sect_3 {
         background-color: #0f0f0f;
