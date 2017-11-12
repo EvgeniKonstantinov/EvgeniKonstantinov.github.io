@@ -182,7 +182,7 @@ section {
         background:url(../img/3.JPG) ;
         width: 100vw;
         height: 50vh;
-        background-size: 100vw;
+        background-size: cover;
         overflow:hidden;
     }
     .sect_4{
@@ -199,6 +199,9 @@ section {
         height: 50vh;
         overflow: hidden;
 
+    }
+    .slider{
+        top: 10vh ;
     }
 }
 @media screen and (min-width: 981px){
