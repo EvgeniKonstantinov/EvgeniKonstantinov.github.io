@@ -53,7 +53,7 @@ body{
         width: 26vw;
     }
     .img_for_slide3{
-        
+
         width: 13vw;
         height: 260px;
     }
@@ -129,7 +129,7 @@ img{
 }
 .sect_3 {
     background-color: #0f0f0f;
-    background:url(../img/3.jpg) 50% 0% no-repeat fixed;
+    background:url(../img/3.JPG) 50% 0% no-repeat fixed;
     background-size: cover;
     width: 100vw;
     overflow:hidden;
