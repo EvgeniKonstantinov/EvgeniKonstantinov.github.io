@@ -10,6 +10,14 @@ div{
 
 }
 
+section{
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+.sect_1{
+    height: 100vh;
+}
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .foto{
         width: 256px;
@@ -82,6 +90,41 @@ div{
     .img_for_slide3{
         width: 13vw;
         height: 300px;
+    }
+}
+@media screen and (max-width: 786px){
+    .sect_1{
+        background-color: black;
+        background-size: cover;
+        overflow:hidden;
+
+    }
+    .sect_2{
+        background:url(../img/2.jpg) 50% 0% no-repeat fixed;
+        width: 100vw;
+        overflow:hidden;
+        height: 50vh;
+    }
+    .sect_3 {
+        background-color: #0f0f0f;
+        background:url(../img/3.JPG) 50% 0% no-repeat fixed;
+        width: 100vw;
+        background-size: 100vw;
+        overflow:hidden;
+        height: 50vh;
+    }
+    .sect_4{
+        background-color: #0f0f0f;
+        background:url(../img/32.jpg) 50% 0% no-repeat fixed;
+        background-size: 100vw;
+        width: 100vw;
+        overflow:hidden;
+        height: 50vh;
+    }
+    .sect_5{
+        width: 100vw;
+        height: 50vh;
+        overflow: hidden;
     }
 }
 @media screen and (max-width: 980px){
@@ -206,12 +249,7 @@ div{
 
     }
 }
-section{
-    height: 100vh;
-    background-color: black;
-    position: relative;
-    overflow: hidden;
-}
+
 
 .slider{
     top: 200px !important;
@@ -249,7 +287,7 @@ nav{
 .landingMenu .cur {
     color:#fff !important;
     border-bottom: 2px solid white;
-    
+
 }
 
 
