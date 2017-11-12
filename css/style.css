@@ -92,31 +92,29 @@ body{
     }
     .logo_img{
         position: absolute;
-        top: 60%;
+        top: 50%;
         left: 50%;
         margin-top: -370px;
         margin-left: -370px;
 
     }
-
-
     .sect_2{
         background:url(../img/2.jpg) 50% 0% no-repeat fixed;
         width: 100vw;
         overflow:hidden;
-
+        background-size: 100vw
     }
     .sect_3 {
         background-color: #0f0f0f;
         background:url(../img/3.JPG) 50% 0% no-repeat fixed;
         width: 100vw;
-
+        background-size: 100vw;
         overflow:hidden;
     }
     .sect_4{
         background-color: #0f0f0f;
         background:url(../img/32.jpg) 50% 0% no-repeat fixed;
-
+        background-size: 100vw;
         width: 100vw;
         overflow:hidden;
 
