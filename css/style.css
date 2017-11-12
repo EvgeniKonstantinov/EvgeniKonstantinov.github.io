@@ -13,7 +13,7 @@ div{
 
 @media screen and (max-width: 768px){
     section{
-        height: 50vh;
+        height: 60vh;
         background-color: black;
         position: relative;
         overflow: hidden;
