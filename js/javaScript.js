@@ -8,7 +8,7 @@ $(document).ready( function() {
     }
     // и потом если нужен код только для телефона:
     if (isMobile) {
-    
+
     }
     // или для остальных
     if (!isMobile) {
@@ -27,19 +27,8 @@ $(document).ready( function() {
                 "transform" : "translate(0%, "+ st/8 + "%"
             });
 
-            $(".sect_2").css({
-                "transform" : "translate(0%, -"+ st/80 + "%"
-            });
+            
 
-            $(".sect_3 ").css({
-                "transform" : "translate(0%, -"+ st/80 + "%"
-            });
-            $(".sect_4").css({
-                "transform" : "translate(0%, -"+ st/80 + "%"
-            });
-            $(".sect_5").css({
-                "transform" : "translate(0%, -"+ st/80 + "%"
-            });
         });
     }
 } );

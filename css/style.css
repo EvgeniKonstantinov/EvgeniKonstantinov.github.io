@@ -8,22 +8,54 @@ body{
     width: 130px;
     height: 100px;
 }
+.foto2{
+    width: 260px;
+    height: 200px;
+}
+.foto3{
+    width: 130px;
+    height: 200px;
+}
 .foto_div1{
     width: 130px;
 }
-.img_for_slide{
+.img_for_slide1{
     width: 130px;
+}
+.img_for_slide2{
+    width: 260px;
+}
+.img_for_slide3{
+    position: relative;
+    width: 13vw;
+    height: 260px;
 }
 @media screen and (min-width: 1201px) and (max-width: 1680px) {
     .foto{
         width: 13vw;
         height: 130px;
     }
+    .foto2{
+        width: 26vw;
+        height: 200px;
+    }
+    .foto3{
+        width: 13vw;
+        height: 260px;
+    }
     .foto_div1{
         width: 13vw;
     }
-    .img_for_slide{
+    .img_for_slide1{
         width: 13vw;
+    }
+    .img_for_slide2{
+        width: 26vw;
+    }
+    .img_for_slide3{
+
+        width: 13vw;
+        height: 260px;
     }
 }
 @media screen and (min-width: 1680px){
@@ -31,11 +63,22 @@ body{
         width: 13vw;
         height: 200px;
     }
+    .foto2{
+        width: 26vw;
+        height: 450px;
+    }
     .foto_div1{
         width: 13vw;
     }
-    .img_for_slide{
+    .img_for_slide1{
         width: 13vw;
+    }
+    .img_for_slide2{
+        width: 26vw;
+    }
+    .img_for_slide3{
+        width: 13vw;
+        height: 300px;
     }
 }
 section{
@@ -77,22 +120,27 @@ img{
 }
 
 .sect_2{
-    background:url(../img/2.jpg) 70% 0% no-repeat fixed;
-    width:100vw;
 
+    background:url(../img/2.jpg) 50% 0% no-repeat fixed;
+
+    background-size: cover;
     overflow:hidden;
-
-}
-.sect_2 img{
-    position: absolute;
-    width: 100%;
 
 }
 .sect_3 {
-    position: absolute;
-    background-color: black;
-    width:100vw;
+    background-color: #0f0f0f;
+    background:url(../img/3.jpg) 50% 0% no-repeat fixed;
+    background-size: cover;
+    width: 100vw;
     overflow:hidden;
+}
+.sect_4{
+    background-color: #0f0f0f;
+    background:url(../img/32.jpg) 50% 0% no-repeat fixed;
+    background-size: cover;
+    width: 100vw;
+    overflow:hidden;
+
 }
 .sect_5{
 
@@ -137,18 +185,8 @@ nav{
     
 }
 
-.landingItem {
 
-}
-.sliders {
-    background:url(../img/8.jpg) 50% 100% no-repeat fixed;
-    background-size: cover;
-    width: 100vw;
-    overflow:hidden;
-}
-.slider{
-    top:50%;
-}
+
 
 
 
