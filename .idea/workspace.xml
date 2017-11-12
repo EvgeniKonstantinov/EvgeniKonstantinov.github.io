@@ -24,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="174" column="52" selection-start-line="174" selection-start-column="52" selection-end-line="174" selection-end-column="52" />
+            <state relative-caret-position="187">
+              <caret line="158" column="33" selection-start-line="158" selection-start-column="33" selection-end-line="158" selection-end-column="33" />
               <folding>
                 <element signature="n#script#7;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#iframe#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -212,12 +212,12 @@
       <workItem from="1510384279095" duration="9884000" />
       <workItem from="1510397443684" duration="14768000" />
       <workItem from="1510430884081" duration="3475000" />
-      <workItem from="1510467066890" duration="23807000" />
+      <workItem from="1510467066890" duration="24272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53191000" />
+    <option name="totallyTimeSpent" value="53656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -449,8 +449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="174" column="52" selection-start-line="174" selection-start-column="52" selection-end-line="174" selection-end-column="52" />
+        <state relative-caret-position="187">
+          <caret line="158" column="33" selection-start-line="158" selection-start-column="33" selection-end-line="158" selection-end-column="33" />
           <folding>
             <element signature="n#script#7;n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#iframe#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
