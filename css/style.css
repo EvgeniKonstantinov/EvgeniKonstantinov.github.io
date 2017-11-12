@@ -12,28 +12,28 @@ div{
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .foto{
-        width: 160px;
-        height: 100px;
+        width: 256px;
+        height: 200px;
     }
     .foto2{
-        width: 320px;
-        height: 200px;
+        width: 512px;
+        height: 400px;
     }
     .foto3{
         width: 130px;
         height: 200px;
     }
     .foto_div1{
-        width: 130px;
+        width: 250px;
     }
     .img_for_slide1{
-        width: 160px;
+        width: 256px;
     }
     .img_for_slide2{
-        width: 320px;
+        width: 512px;
     }
 }
-@media screen and (min-width: 1201px) and (max-width: 1680px) {
+@media screen and (min-width: 1025px) and (max-width: 1680px) {
     .foto{
         width: 13vw;
         height: 130px;
