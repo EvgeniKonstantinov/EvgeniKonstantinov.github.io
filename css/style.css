@@ -163,6 +163,9 @@ div{
     }
 }
 @media screen and (min-width: 981px){
+    .slider{
+        top: 200px ;
+    }
     .sect_1{
         background-color: black;
         background-size: cover;
@@ -177,7 +180,6 @@ div{
         left: 50%;
         margin-top: -370px;
         margin-left: -370px;
-
     }
     .img_dwn{
         position: absolute;
@@ -194,14 +196,10 @@ div{
         margin-top: -70px;
         margin-left: -70px;
     }
-
     .sect_2{
-
         background:url(../img/2.jpg) 50% 0% no-repeat fixed;
-
         background-size: cover;
         overflow:hidden;
-
     }
     .sect_3 {
         background-color: #0f0f0f;
@@ -225,11 +223,6 @@ div{
     }
 }
 
-
-.slider{
-    top: 200px !important;
-
-}
 .instagrid{
     z-index: 3;
 }
