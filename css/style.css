@@ -11,22 +11,13 @@ div{
 }
 
 
-@media screen and (max-width: 768px){
-    section{
-        height: 60vh;
-        background-color: black;
-        position: relative;
-        overflow: hidden;
-    }
-}
 
-@media screen and (min-width: 768px){
-    section{
-        height: 100vh;
-        background-color: black;
-        position: relative;
-        overflow: hidden;
-    }
+
+section {
+
+    background-color: black;
+    position: relative;
+    overflow: hidden;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .foto{
@@ -102,8 +93,51 @@ div{
         height: 300px;
     }
 }
+
+@media screen and (min-width: 769px) {
+    .sect_1 {
+        height: 100vh;
+        background-color: black;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .sect_2 {
+        background: url(../img/2.jpg) 50% 0% no-repeat fixed;
+        width: 100vw;
+        overflow: hidden;
+        height: 100vh;
+
+    }
+
+    .sect_3 {
+        background-color: #0f0f0f;
+        background: url(../img/3.JPG) 50% 0% no-repeat fixed;
+        width: 100vw;
+        height: 100vh;
+        background-size: 100vw;
+        overflow: hidden;
+    }
+
+    .sect_4 {
+        background-color: #0f0f0f;
+        background: url(../img/32.jpg) 50% 0% no-repeat fixed;
+        background-size: 100vw;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+
+    }
+
+    .sect_5 {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+}
 @media screen and (max-width: 980px){
     .sect_1{
+        height: 100vh;
         background-color: black;
         background-size: cover;
         overflow:hidden;
@@ -137,6 +171,7 @@ div{
     .sect_2{
         background:url(../img/2.jpg) 50% 0% no-repeat fixed;
         width: 100vw;
+        height: 50vh;
         overflow:hidden;
 
 
@@ -145,6 +180,7 @@ div{
         background-color: #0f0f0f;
         background:url(../img/3.JPG) 50% 0% no-repeat fixed;
         width: 100vw;
+        height: 50vh;
         background-size: 100vw;
         overflow:hidden;
     }
@@ -153,11 +189,13 @@ div{
         background:url(../img/32.jpg) 50% 0% no-repeat fixed;
         background-size: 100vw;
         width: 100vw;
+        height: 50vh;
         overflow:hidden;
 
     }
     .sect_5{
         width: 100vw;
+        height: 50vh;
         overflow: hidden;
 
     }
