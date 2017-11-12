@@ -81,6 +81,52 @@ body{
         height: 300px;
     }
 }
+@media screen and (max-width: 980px){
+    .sect_1{
+        background-color: black;
+        background-size: cover;
+        overflow:hidden;
+    }
+    img{
+        background-size: cover;
+    }
+    .logo_img{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        margin-top: -370px;
+        margin-left: -370px;
+
+    }
+
+
+    .sect_2{
+        background:url(../img/2.jpg) 50% 0% no-repeat fixed;
+        width: 100vw;
+        overflow:hidden;
+
+    }
+    .sect_3 {
+        background-color: #0f0f0f;
+        background:url(../img/3.JPG) 50% 0% no-repeat fixed;
+        width: 100vw;
+
+        overflow:hidden;
+    }
+    .sect_4{
+        background-color: #0f0f0f;
+        background:url(../img/32.jpg) 50% 0% no-repeat fixed;
+
+        width: 100vw;
+        overflow:hidden;
+
+    }
+    .sect_5{
+        width: 100vw;
+        overflow: hidden;
+
+    }
+}
 section{
     height: 100vh;
     background-color: black;
