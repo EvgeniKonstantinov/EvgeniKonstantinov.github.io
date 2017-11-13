@@ -268,7 +268,7 @@ nav{
 .landingMenu ul {
 
     display:block;
-    width:800px;
+
     margin:auto;
     border-radius:0 0 10px 10px;
 }
@@ -307,7 +307,10 @@ nav{
     font-family: 'PremiereLight', Helvetica, Arial, sans-serif;
     color: white;
 }
-
+.img_logo_social{
+    width: 30px;
+    height: 30px;
+}
 
 
 
