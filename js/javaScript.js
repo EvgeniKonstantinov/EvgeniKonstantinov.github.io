@@ -31,8 +31,16 @@ $(document).ready( function() {
 
         });
     }
-} );
+    document.getElementById('item1').onclick = function() {
+        document.getElementById('item1_1').style.display = 'block';
+        document.getElementById('item').style.display = 'none';
 
+    };
+   /* $("#item1").on("click",function () {
+        $("#item").show();
+
+    });*/
+});
 
 
 /*

@@ -20,6 +20,12 @@ button {
     display: inline-block;
     font-size: 16px;
 }
+#item{
+    display: block;
+}
+#item1_1{
+    display: none;
+}
 .logo_div{
     background-color: #000000;
 }
