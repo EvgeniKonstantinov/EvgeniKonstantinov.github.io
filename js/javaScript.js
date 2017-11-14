@@ -31,20 +31,36 @@ $(document).ready( function() {
 
         });
     }
+
     document.getElementById('item1').onclick = function() {
         document.getElementById('item1_1').style.display = 'block';
         document.getElementById('item').style.display = 'none';
-
+        document.getElementById('hit_item').style.display = 'none';
     };
     document.getElementById('item2').onclick = function() {
         document.getElementById('item2_1').style.display = 'block';
         document.getElementById('item').style.display = 'none';
-
+        document.getElementById('hit_item').style.display = 'none';
     };
     document.getElementById('item3').onclick = function() {
         document.getElementById('item3_1').style.display = 'block';
         document.getElementById('item').style.display = 'none';
-
+        document.getElementById('hit_item').style.display = 'none';
+    };
+    document.getElementById('close_item1').onclick = function() {
+        document.getElementById('item1_1').style.display = 'none';
+        document.getElementById('item').style.display = 'block';
+        document.getElementById('hit_item').style.display = 'block';
+    };
+    document.getElementById('close_item2').onclick = function() {
+        document.getElementById('item2_1').style.display = 'none';
+        document.getElementById('item').style.display = 'block';
+        document.getElementById('hit_item').style.display = 'block';
+    };
+    document.getElementById('close_item3').onclick = function() {
+        document.getElementById('item3_1').style.display = 'none';
+        document.getElementById('item').style.display = 'block';
+        document.getElementById('hit_item').style.display = 'block';
     };
    /* $("#item1").on("click",function () {
         $("#item").show();
