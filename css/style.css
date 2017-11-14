@@ -35,10 +35,6 @@ button {
     display: none;
     margin-top: 10vh;
 }
-.button_bottom{
-
-    bottom: 0px;
-}
 .logo_div{
     background-color: #000000;
 }
@@ -283,7 +279,7 @@ section {
     top: 80%;
     left: 50%;
     margin-top: 50%;
-    margin-left: -52px;
+    margin-left: -32px;
 }
 #img_dwn3{
     position: absolute;
@@ -309,7 +305,9 @@ nav{
     margin:auto;
     border-radius:0 0 10px 10px;
 }
-
+.margin_bottom_5vh{
+    margin-bottom: 5vh !important;
+}
 .landingMenu a {
     color:#09F;
     padding:20px 20px;
