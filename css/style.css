@@ -26,6 +26,16 @@ button {
 #item1_1{
     display: none;
 }
+#item2_1{
+    display: none;
+}
+#item3_1{
+    display: none;
+}
+.button_bottom{
+
+    bottom: 0px;
+}
 .logo_div{
     background-color: #000000;
 }
@@ -198,7 +208,7 @@ section {
     .sect_4{
         background-size: cover;
 
-        height: 50vh;
+        height: 70vh;
         overflow:hidden;
 
     }

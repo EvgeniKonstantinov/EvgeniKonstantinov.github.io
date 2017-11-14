@@ -36,6 +36,16 @@ $(document).ready( function() {
         document.getElementById('item').style.display = 'none';
 
     };
+    document.getElementById('item2').onclick = function() {
+        document.getElementById('item2_1').style.display = 'block';
+        document.getElementById('item').style.display = 'none';
+
+    };
+    document.getElementById('item3').onclick = function() {
+        document.getElementById('item3_1').style.display = 'block';
+        document.getElementById('item').style.display = 'none';
+
+    };
    /* $("#item1").on("click",function () {
         $("#item").show();
 
