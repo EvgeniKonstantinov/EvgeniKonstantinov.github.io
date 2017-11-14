@@ -26,7 +26,22 @@
                 });
             })
         </script>
-        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3df8d3c6742b57bd5ab20e56a/26ea220960ed2713e2fc4eed2.js");</script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#form").submit(function() { //устанавливаем событие отправки для формы с id=form
+                    var form_data = $(this).serialize(); //собераем все данные из формы
+                    $.ajax({
+                        type: "POST", //Метод отправки
+                        url: "send.php", //путь до php фаила отправителя
+                        data: form_data,
+                        success: function () {
+                            //код в этом блоке выполняется при успешной отправке сообщения
+                            alert("Ваше сообщение отпрвлено!");
+                        }
+                     })
+                });
+            });
+        </script>
     </head>
     <body>
         <div class="container-fluid">
@@ -245,7 +260,13 @@
                             Вы так же моежете связаться с нами по телефону +375445371973
                         </h3>
                     </div>
-                    <form action=""></form>
+                    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+                        <form id="form">
+                            <input type="text" name="name" required="required"/>
+                            <input type="text" name="phone" required="required"/>
+                            <input type="submit" value="Заказать звонок"/>
+                        </form>
+                    </div>
                 </div>
             </section>
 
