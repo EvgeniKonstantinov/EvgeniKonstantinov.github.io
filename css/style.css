@@ -25,14 +25,17 @@ button {
 }
 #item1_1{
     margin-top: 10vh;
+    min-width: 310px;
     display: none;
 }
 #item2_1{
     display: none;
+    min-width: 310px;
     margin-top: 10vh;
 }
 #item3_1{
     display: none;
+    min-width: 310px;
     margin-top: 10vh;
 }
 .logo_div{
@@ -157,7 +160,7 @@ section {
     }
 
     .sect_5 {
-        height: 100vh;
+        height: 110vh;
         overflow: hidden;
     }
 }
