@@ -67,13 +67,12 @@
 .remodal-close {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -10px;
   display: block;
   overflow: visible;
   width: 35px;
   height: 35px;
   margin: 0;
-  padding: 0;
   cursor: pointer;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
@@ -86,7 +85,8 @@
 
 .remodal-close:hover,
 .remodal-close:focus {
-
+  background: transparent;
+  color: #95979c;
 }
 
 .remodal-close:before {
@@ -298,13 +298,13 @@
 
 @media only screen and (min-width: 440px) {
   .remodal {
-    width: 80vw;
+    max-width: 420px;
   }
 }
 
 @media only screen and (max-width: 439px) {
   .remodal {
-    max-width: 100%;
+    width: 100vw;
   }
   .putName, .putPhone{
     width: 90%;

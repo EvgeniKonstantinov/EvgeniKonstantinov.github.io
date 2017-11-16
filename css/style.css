@@ -39,6 +39,9 @@ button:hover {
     display: inline-block;
     font-size: 16px;
 }
+.img_dwn:hover{
+
+}
 .button_bottom{
     margin-top: 5px;
     margin-bottom: 5px;
@@ -188,6 +191,9 @@ section {
     }
 }
 @media screen and (max-width: 980px){
+    .margin_bottom_3vh{
+        margin-bottom: 1vh !important;
+    }
     .sect_1{
         height: 100vh;
         background-color: #1a1a18;
@@ -253,6 +259,9 @@ section {
 
 }
 @media screen and (min-width: 981px){
+    .margin_bottom_3vh{
+        margin-bottom: 3vh !important;
+    }
     .sect_1{
         background-color: #1a1a18;
         background-size: cover;
@@ -336,7 +345,9 @@ nav{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.32);
     z-index: 2;
 }
-
+.navbar-default .navbar-nav li a{
+    color: white !important;
+}
 
 .landingMenu ul {
 
@@ -348,9 +359,7 @@ nav{
 .margin_bottom_5vh{
     margin-bottom: 5vh !important;
 }
-.margin_bottom_3vh{
-    margin-bottom: 3vh !important;
-}
+
 #item a{
     color: #0f0f0f;
 }
@@ -383,7 +392,10 @@ a#insta{
     width: 30px;
     height: 30px;
 }
-
+.footer{
+    background-color: black;
+    height: 30px;
+}
 
 
 
