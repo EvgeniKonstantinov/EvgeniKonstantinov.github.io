@@ -68,7 +68,6 @@ $(document).ready( function() {
     });*/
 });
 
-
 /*
  * jQuery liLanding v 2.1
  *
