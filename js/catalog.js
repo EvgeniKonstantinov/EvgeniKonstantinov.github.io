@@ -81,7 +81,7 @@ items100.forEach(function (item) {
 });
 contentItems100.innerHTML = resultItems100;
 
-var compositionTemplate = _.template(document.getElementById('composition').innerHTML);
+var compositionTemplate = _.template(document.getElementById('itemscomposition').innerHTML);
 var contentcomposition = document.getElementById('compositiondiv');
 
 
@@ -96,16 +96,7 @@ composition.forEach(function (item) {
 });
 contentcomposition.innerHTML = resultcomposition;
 
-/*$(document).ready( function() {
-        $(".itemsDiv").hover(function () {
-           
-            $(this).find(".specItem").show();
-        },
-            function(){
-                $(this).find(".specItem").hide();
-            }
-        );
-    });*/
+
 
 
 
