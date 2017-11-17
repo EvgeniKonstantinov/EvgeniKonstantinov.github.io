@@ -82,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/catalog.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="105" column="146" selection-start-line="105" selection-start-column="146" selection-end-line="105" selection-end-column="146" />
+              <caret line="105" column="96" selection-start-line="105" selection-start-column="96" selection-end-line="105" selection-end-column="96" />
               <folding>
                 <element signature="n#script#7;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#STYLE#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -257,12 +257,12 @@
       <workItem from="1510773288708" duration="3086000" />
       <workItem from="1510808438689" duration="14085000" />
       <workItem from="1510895382959" duration="12185000" />
-      <workItem from="1510921371955" duration="7976000" />
+      <workItem from="1510921371955" duration="8425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131090000" />
+    <option name="totallyTimeSpent" value="131539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -747,7 +747,7 @@
     <entry file="file://$PROJECT_DIR$/catalog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="105" column="146" selection-start-line="105" selection-start-column="146" selection-end-line="105" selection-end-column="146" />
+          <caret line="105" column="96" selection-start-line="105" selection-start-column="96" selection-end-line="105" selection-end-column="96" />
           <folding>
             <element signature="n#script#7;n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#STYLE#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
