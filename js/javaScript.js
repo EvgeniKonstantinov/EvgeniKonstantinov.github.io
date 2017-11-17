@@ -68,6 +68,13 @@ $(document).ready( function() {
     });*/
 });
 
+/**
+ * Created by Evgeni on 19.10.2017.
+ */
+
+
+
+
 /*
  * jQuery liLanding v 2.1
  *

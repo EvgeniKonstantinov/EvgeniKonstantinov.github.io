@@ -331,7 +331,7 @@ section {
     margin-left: -32px;
 }
 #img_dwn3{
-    position: absolute;
+    position: absolute ;
     top: 80%;
     left: 50%;
     margin-top: 50%;
@@ -396,9 +396,41 @@ a#insta{
     background-color: black;
     height: 30px;
 }
+.imgItems{
 
+}
+.itemsDiv{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.itemsDiv:hover .specItem{
+    display: block;
 
-
+}
+.specItem{
+    position: absolute !important;
+    display: none;
+    background: rgba(0, 0, 0, 0.69);
+    -khtml-opacity: .9;
+    -moz-opacity: 0.9;
+    opacity: .9;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.name{
+    position: absolute !important;
+    color: white;
+    top: 40%;
+}
+.specification{
+    position: absolute !important;
+    color: white;
+    top: 50%;
+}
 #fancybox-loading{position:fixed;top:50%;left:50%;height:40px;width:40px;margin-top:-20px;margin-left:-20px;cursor:pointer;overflow:hidden;background:transparent;z-index:3000;display:none;}
 * html #fancybox-loading{position:absolute;margin-top:0;}
 #fancybox-loading div{position:absolute;top:0;left:0;width:40px;height:480px;background:transparent url('../js/fancybox/fancy_loading.png') no-repeat;}
