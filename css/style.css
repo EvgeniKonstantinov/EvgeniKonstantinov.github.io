@@ -412,10 +412,8 @@ a#insta{
 .specItem{
     position: absolute !important;
     display: none;
-    background: rgba(0, 0, 0, 0.69);
-    -khtml-opacity: .9;
-    -moz-opacity: 0.9;
-    opacity: .9;
+    background: #f7f7f7;
+
     top: 0;
     bottom: 0;
     left: 0;
@@ -434,6 +432,8 @@ a#insta{
 .modal{
      border-radius: 0 !important;
     top: 10vh !important;
+    width: 90vw ;
+    left: 5vw !important;
 }
 .modal-content{
 
