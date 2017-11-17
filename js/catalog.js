@@ -27,6 +27,7 @@ var contentItems50 = document.getElementById('items50div');
 var resultItems50 = "";
 items50.forEach(function (item) {
     resultItems50 += items50Template({
+        id : item.id,
         img: item.img,
         name: item.name,
         specification: item.specification,
@@ -43,6 +44,7 @@ var contentItems50_70 = document.getElementById('items50_70div');
 var resultItems50_70 = "";
 items50_70.forEach(function (item) {
     resultItems50_70 += items50_70Template({
+        id : item.id,
         img: item.img,
         name: item.name,
         specification: item.specification,
@@ -58,6 +60,7 @@ var contentItems70_100 = document.getElementById('items70_100div');
 var resultItems70_100 = "";
 items70_100.forEach(function (item) {
     resultItems70_100 += items70_100Template({
+        id : item.id,
         img: item.img,
         name: item.name,
         specification: item.specification,
@@ -73,6 +76,7 @@ var contentItems100 = document.getElementById('items100div');
 var resultItems100 = "";
 items100.forEach(function (item) {
     resultItems100 += items100Template({
+        id : item.id,
         img: item.img,
         name: item.name,
         specification: item.specification,
@@ -88,6 +92,7 @@ var contentcomposition = document.getElementById('compositiondiv');
 var resultcomposition = "";
 composition.forEach(function (item) {
     resultcomposition += compositionTemplate({
+        id : item.id,
         img: item.img,
         name: item.name,
         specification: item.specification,

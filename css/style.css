@@ -431,6 +431,14 @@ a#insta{
     color: white;
     top: 50%;
 }
+.modal{
+     border-radius: 0 !important;
+    top: 10vh !important;
+}
+.modal-content{
+
+}
+
 #fancybox-loading{position:fixed;top:50%;left:50%;height:40px;width:40px;margin-top:-20px;margin-left:-20px;cursor:pointer;overflow:hidden;background:transparent;z-index:3000;display:none;}
 * html #fancybox-loading{position:absolute;margin-top:0;}
 #fancybox-loading div{position:absolute;top:0;left:0;width:40px;height:480px;background:transparent url('../js/fancybox/fancy_loading.png') no-repeat;}
