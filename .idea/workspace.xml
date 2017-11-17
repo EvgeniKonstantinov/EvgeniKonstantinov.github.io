@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
+              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding>
                 <element signature="n#script#7;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#8;n#head#0;n#html#0;n#!!top" expanded="false" />
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tsconfig.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="248" column="3" selection-start-line="248" selection-start-column="3" selection-end-line="248" selection-end-column="14" />
+            <state relative-caret-position="340">
+              <caret line="260" column="83" selection-start-line="260" selection-start-column="83" selection-end-line="260" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -124,12 +124,12 @@
       <list>
         <option value="$PROJECT_DIR$/slick/slick.js" />
         <option value="$PROJECT_DIR$/css/remodal-default-theme.css" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/js/javaScript.js" />
         <option value="$PROJECT_DIR$/js/catalog.js" />
         <option value="$PROJECT_DIR$/catalog.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
       </list>
     </option>
   </component>
@@ -257,12 +257,12 @@
       <workItem from="1510773288708" duration="3086000" />
       <workItem from="1510808438689" duration="14085000" />
       <workItem from="1510895382959" duration="12185000" />
-      <workItem from="1510921371955" duration="9315000" />
+      <workItem from="1510921371955" duration="10149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132429000" />
+    <option name="totallyTimeSpent" value="133263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -688,14 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="248" column="3" selection-start-line="248" selection-start-column="3" selection-end-line="248" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/javaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -741,7 +733,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding>
             <element signature="n#script#7;n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#8;n#head#0;n#html#0;n#!!top" expanded="false" />
@@ -758,6 +750,14 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="260" column="83" selection-start-line="260" selection-start-column="83" selection-end-line="260" selection-end-column="83" />
+          <folding />
         </state>
       </provider>
     </entry>
