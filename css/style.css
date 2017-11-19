@@ -351,6 +351,13 @@ section {
     margin-top: 50%;
     margin-left: -52px;
 }
+.img_form{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.spec_form{
+    padding-top: 10px;
+}
 .hr{
     border-bottom: 1px solid black;
 }
