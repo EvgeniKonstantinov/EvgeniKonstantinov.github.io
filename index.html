@@ -8,8 +8,6 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="translucent">
 
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="contact.html">
-        <link rel="stylesheet" href="css/liLanding.css">
         <link rel="stylesheet" href="css/remodal.css">
         <link rel="stylesheet" href="css/remodal-default-theme.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,16 +17,7 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/javaScript.js"></script>
-        <script type="text/javascript" src="js/jquery.liLanding.js"></script>
-        <script src="js/fancybox/jquery.fancybox-1.3.0.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script>
-            $(window).load(function(){
-                $('.landingMenu').liLanding({
-
-                });
-            })
-        </script>
         <script type="text/javascript">
             $(document).ready(function(){
                 $("#form").submit(function() { //устанавливаем событие отправки для формы с id=form
@@ -60,15 +49,17 @@
                             </button>
                         </div>
                         <div class="logo_div col-xs-12 col-sm-12 col-md-12 col-lg-12 text_align_center">
-                            <a class="logo_div col-xs-12 col-sm-12 col-md-12 col-lg-12 text_align_center" href="#"><img src="img/logo_1.png" alt=""></a>
+                            <a class="logo_div col-xs-12 col-sm-12 col-md-12 col-lg-12 text_align_center " href="#"><img src="img/logo_1.png" alt=""></a>
                         </div>
-                        <div class="col-lg-12">
-                            <div class="collapse navbar-collapse landingMenu" id="navbar-main">
-                                <ul class="nav navbar-nav navbar-left" >
+                        <div  class="col-lg-12">
+                            <div  class="collapse navbar-collapse landingMenu" id="navbar-main">
+                                <ul id="navbarLeft" class="nav navbar-nav navbar-left navbarTop" >
                                     <li><a href="#land_1">О КОМПАНИИ</a></li>
-                                    <li><a href="catalog.html">КАТАЛОГ</a></li>
                                 </ul>
-                                <ul class="nav navbar-nav navbar-right" >
+                                <ul  class="nav navbar-nav navbar-left">
+                                    <li><a href="catalog.html#contentItems">КАТАЛОГ</a></li>
+                                </ul>
+                                <ul id="navbarRight" class="nav navbar-nav navbar-right navbarTop" >
                                     <li><a href="#land_3">ЗАКАЗАТЬ</a></li>
                                     <li><a href="#land_4">КОНТАКТЫ</a></li>
                                 </ul>
@@ -85,7 +76,7 @@
 
             <section class="sect_1">
                 <img class="logo_img" src="img/logo_4.png" alt="">
-                <div class="landingMenu">
+                <div class="landingMenu navbarTop">
                     <a class="img_dwn" href="#land_1"><img  src="img/ico-arrow-down.png" alt=""></a>
                 </div>
 

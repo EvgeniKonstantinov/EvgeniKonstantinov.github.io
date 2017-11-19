@@ -106,8 +106,16 @@ $(document).ready(function(){
     $("#contentMenu").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
-            top = $(id).offset().top -100;
+            top = $(id).offset().top -55;
         $('body,html').animate({scrollTop: top}, 1500);
+    });
+
+    var $target = $('.imgItems');
+    var hold = 200;
+
+    $.each($target,function(i,t){
+        var $this = $(t);
+        setTimeout(function(){ $this.show('normal'); },i*hold);
     });
 });
 

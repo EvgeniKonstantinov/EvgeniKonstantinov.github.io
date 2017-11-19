@@ -424,7 +424,7 @@ a#insta{
     height: 90px;
 }
 .imgItems{
-
+    display: none;
 }
 .itemsDiv{
     position: relative;
