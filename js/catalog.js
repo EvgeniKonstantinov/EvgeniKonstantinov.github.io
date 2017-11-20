@@ -103,11 +103,11 @@ contentcomposition.innerHTML = resultcomposition;
 
 
 $(document).ready(function(){
-    $(".contentMenu").on("click","a", function (event) {
+    $(".contentMenu").on("click","button", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top -55;
-        $('body,html').animate({scrollTop: top}, 1500);
+        $('body,html').animate({scrollTop: top}, 3000);
     });
 
     var $target = $('.imgItems');
