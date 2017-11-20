@@ -103,7 +103,7 @@ contentcomposition.innerHTML = resultcomposition;
 
 
 $(document).ready(function(){
-    $(".contentMenu").on("click","button", function (event) {
+    $("#contentMenu").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top -55;
