@@ -72,10 +72,7 @@ body {
   background: white;
   border: none;
   border-radius: 4px 4px 4px 4px;
-  -webkit-transition: top 0.2s, -webkit-transform 0.5s;
-  transition: top 0.2s, -webkit-transform 0.5s;
-  transition: transform 0.5s, top 0.2s;
-  transition: transform 0.5s, top 0.2s, -webkit-transform 0.5s; }
+  transition: transform 0.5s, top 0.2s; }
 
 .sw-bottom {
   position: relative;
@@ -85,12 +82,8 @@ body {
   background: white;
   border: none;
   border-radius: 4px 4px 4px 4px;
-  -webkit-transition: top 0.2s, -webkit-transform 0.5s;
-  transition: top 0.2s, -webkit-transform 0.5s;
   transition: transform 0.5s, top 0.2s;
-  transition: transform 0.5s, top 0.2s, -webkit-transform 0.5s;
-  -webkit-transition-delay: 0.2s, 0s;
-          transition-delay: 0.2s, 0s;
+  transition-delay: 0.2s, 0s;
   display: block; }
 
 .sw-footer {
@@ -101,25 +94,20 @@ body {
   background: white;
   border: none;
   border-radius: 4px 4px 4px 4px;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  -webkit-transition-delay: 0.1s;
-          transition-delay: 0.1s;
+  transition-delay: 0.1s;
   display: block; }
 
 .sandwich.active .sw-topper {
   top: 10px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg); }
+  transform: rotate(-45deg); }
 .sandwich.active .sw-bottom {
   top: 6px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg); }
+  transform: rotate(45deg); }
 .sandwich.active .sw-footer {
   opacity: 0;
   top: 0;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg); }
+  transform: rotate(180deg); }
 
 .top_menu {
   position: fixed;
@@ -140,15 +128,19 @@ body {
     text-align: center; }
     .top_menu ul li:nth-child(1) a {
       -webkit-animation-duration: 0.1s;
+      -moz-animation-duration: 0.1s;
       animation-duration: 0.1s; }
     .top_menu ul li:nth-child(2) a {
       -webkit-animation-duration: 0.4s;
+      -moz-animation-duration: 0.4s;
       animation-duration: 0.4s; }
     .top_menu ul li:nth-child(3) a {
       -webkit-animation-duration: 0.8s;
+      -moz-animation-duration: 0.8s;
       animation-duration: 0.8s; }
     .top_menu ul li:nth-child(4) a {
       -webkit-animation-duration: 1.2s;
+      -moz-animation-duration: 1.2s;
       animation-duration: 1.2s; }
     .top_menu ul a {
       color: #fff;
@@ -177,6 +169,7 @@ body {
       margin: 0;
       text-transform: uppercase;
       -webkit-animation-delay: 2s;
+      -moz-animation-delay: 2s;
       animation-delay: 2s; }
     .top_wrapper .top_text h1 {
       display: inline-block;
@@ -188,15 +181,14 @@ body {
       font-size: 3em;
       font-weight: bold;
       background-color: rgba(0, 0, 0, 0.5);
-      -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 1000px;
-              box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 1000px;
+      box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 1000px;
       -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
       animation-delay: 1s; }
 
-.content img {
-  width: 100%; }
-.content h4 {
-  text-align: center; }
-.content h5 {
-  text-align: center;
-  margin-top: 0 !important; }
+.content {
+  background-color: #222; }
+  .content h4 {
+    text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
