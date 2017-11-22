@@ -176,8 +176,8 @@ body {
     .top_wrapper .top_text p {
       margin: 0;
       text-transform: uppercase;
-      -webkit-animation-delay: 2s;
-      animation-delay: 2s; }
+      -webkit-animation-delay: 1.5s;
+      animation-delay: 1.5s; }
     .top_wrapper .top_text h1 {
       display: inline-block;
       padding: 10px 35px;
@@ -200,3 +200,22 @@ body {
 .content h5 {
   text-align: center;
   margin-top: 0 !important; }
+
+.content_spec {
+  display: none; }
+  .content_spec img {
+    width: 100%; }
+  .content_spec h4 {
+    margin: 10px; }
+  .content_spec h5 {
+    margin: 10px; }
+  .content_spec button {
+    background-color: white;
+    border: 1px solid black;
+    color: #222;
+    padding: 1px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px; }

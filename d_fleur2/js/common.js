@@ -17,6 +17,38 @@ $(window).load(function() {
     $(".loader_inner").fadeOut();
     $(".loader").delay(400).fadeOut("slow");
 });
+$("#item1").click(function () {
+    console.log("click");
+    $(".items").css("display", "none");
+    $("#item1_1").css("display", "block");
+});
+
+$("#close_item1").click(function () {
+    $(".items").css("display", "block");
+    $("#item1_1").css("display", "none");
+});
+
+$("#item2").click(function () {
+    console.log("click");
+    $(".items").css("display", "none");
+    $("#item2_1").css("display", "block");
+});
+
+$("#close_item2").click(function () {
+    $(".items").css("display", "block");
+    $("#item2_1").css("display", "none");
+});
+
+$("#item3").click(function () {
+    console.log("click");
+    $(".items").css("display", "none");
+    $("#item3_1").css("display", "block");
+});
+
+$("#close_item3").click(function () {
+    $(".items").css("display", "block");
+    $("#item3_1").css("display", "none");
+});
 
 $('.toggle_menu').click(function () {
     if ($('.top_menu').is(":visible")){
