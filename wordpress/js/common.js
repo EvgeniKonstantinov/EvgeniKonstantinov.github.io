@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+    $('.top_text h1').animated("fadeInDown","fadeOutUp");
+    $('.top_text p').animated("fadeInUp","fadeOutDown");
+
     function heightDetect() {
         $(".main_head").css('height', $(window).height());
     }
@@ -32,4 +36,5 @@ $('.top_menu ul a').click(function () {
     $('.top_menu').fadeOut(600);
     $(".sandwich").toggleClass("active");
 
-})
+});
+
