@@ -1,8 +1,10 @@
 $(document).ready(function() {
-
+    $('#item1 div').animated("fadeInLeft","fadeOutLeft");
+    $('#item2 div').animated("fadeInDown","fadeOutUp");
+    $('#item3 div').animated("fadeInRight","fadeOutRight");
     $('.top_text h1').animated("fadeInDown","fadeOutUp");
     $('.top_text p').animated("fadeInUp","fadeOutDown");
-    $('.section_heder').animated("fadeInUp", "fadeOutDown")
+    $('.section_heder').animated("fadeInUp", "fadeOutDown");
 
     function heightDetect() {
         $(".main_head").css('height', $(window).height());
@@ -19,8 +21,10 @@ $(window).load(function() {
 });
 $("#item1").click(function () {
     console.log("click");
-    $(".items").css("display", "none");
-    $("#item1_1").css("display", "block");
+    $('#item1_1').css("display", "block");
+    $('.items').css("display", "none");
+
+
 });
 
 $("#close_item1").click(function () {
