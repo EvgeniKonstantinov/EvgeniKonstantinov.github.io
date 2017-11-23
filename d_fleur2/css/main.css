@@ -254,8 +254,41 @@ body {
       margin-bottom: 0; }
     .s_catalog .catalog_item:hover .port_item_cont p {
       color: #f7f7f7; }
-    .s_catalog .catalog_item:hover .port_item_cont button {
+    .s_catalog .catalog_item:hover .port_item_cont a {
       color: #f7f7f7;
       background-color: transparent;
       border: #fff 1px solid;
-      padding: 2px 10px; }
+      padding: 2px 10px;
+      display: inline-block; }
+
+.podrt_descr {
+  background-color: #f7f7f7;
+  max-width: 400px;
+  margin: auto;
+  text-align: center; }
+  .podrt_descr img {
+    width: 100%; }
+  .podrt_descr p,
+  .podrt_descr h3 {
+    padding-bottom: 0; }
+  .podrt_descr h3,
+  .podrt_descr h5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400; }
+  .podrt_descr a {
+    color: #222;
+    background-color: transparent;
+    border: #222 1px solid;
+    padding: 2px 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 14px; }
+  .podrt_descr button {
+    color: #222;
+    background-color: transparent;
+    border: #222 1px solid;
+    padding: 2px 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 12px; }

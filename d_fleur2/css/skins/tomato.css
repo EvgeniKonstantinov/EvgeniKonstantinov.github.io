@@ -85,3 +85,8 @@ p {
 .s_catalog li.active {
   color: #222;
   border-bottom: 1px solid #F9BDFF; }
+
+.podrt_descr a {
+  letter-spacing: 2px; }
+.podrt_descr button {
+  letter-spacing: 2px; }

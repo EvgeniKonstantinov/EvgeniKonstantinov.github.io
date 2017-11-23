@@ -225,77 +225,14 @@
 				<div class="row">
 					<div class="filter_div controls">
 						<ul>
-							<li data-filter="all" class="active filter">Все букеты</li>
-							<li class="filter" data-filter =".category-1">Букеты до 50р</li>
+							<li class="active filter" data-filter =".category-1">Букеты до 50р</li>
 							<li class="filter" data-filter =".category-2">Букеты до 100р</li>
-							<li class="filter" data-filter =".category-3">Композиции</li>
+							<li class="filter" data-filter =".category-3">Букеты от 100р</li>
+							<li class="filter" data-filter =".category-4">Композиции</li>
 						</ul>
 					</div>
 					<div id="catalog_grid">
-						<div class="mix col-md-3 catalog_item category-1">
-							<img src="	img/catalog/df0000.jpg" alt="">
-							<div class="port_item_cont">
-								<h3>Букет DF0000</h3>
-								<p>45руб.</p>
-								<button>Посмотреть</button>
-							</div>
-						</div>
-						<div class="mix col-md-3 catalog_item category-1">
-							<img src="	img/catalog/df00001.jpg" alt="">
-							<div class="port_item_cont">
-								<h3>Букет DF0000</h3>
-								<p>45руб.</p>
-								<button>Посмотреть</button>
-							</div>
-						</div>
-						<div class="mix col-md-3 catalog_item category-1">
-							<img src="img/catalog/df0015.jpg" alt="">
-							<div class="port_item_cont">
-								<h3>Букет DF0000</h3>
-								<p>45руб.</p>
-								<button>Посмотреть</button>
-							</div>
-						</div>
-						<div class="mix col-md-3 catalog_item category-2">
-							<img src="	img/catalog/df0020.jpg" alt="">
-							<div class="port_item_cont">
-								<h3>Букет DF0000</h3>
-								<p>45руб.</p>
-								<button>Посмотреть</button>
-							</div>
-						</div>
-						<div class="mix col-md-3 catalog_item category-2">
-							<img src="	img/catalog/df0019.jpg" alt="">
-							<div class="port_item_cont">
-								<h3>Букет DF0000</h3>
-								<p>45руб.</p>
-								<button>Посмотреть</button>
-							</div>
-						</div>
-						<div class="mix col-md-3 catalog_item category-2">
-							<img src="	img/catalog/df0023.jpg" alt="">
-							<div class="port_item_cont">
-								<h3>Букет DF0000</h3>
-								<p>45руб.</p>
-								<button>Посмотреть</button>
-							</div>
-						</div>
-						<div class="mix col-md-3 catalog_item category-3">
-							<img src="	img/catalog/df0021.jpg" alt="">
-							<div class="port_item_cont">
-								<h3>Букет DF0000</h3>
-								<p>45руб.</p>
-								<button>Посмотреть</button>
-							</div>
-						</div>
-						<div class="mix col-md-3 catalog_item category-3">
-							<img src="	img/catalog/df0022.jpg" alt="">
-							<div class="port_item_cont">
-								<h3>Букет DF0000</h3>
-								<p>45руб.</p>
-								<button>Посмотреть</button>
-							</div>
-						</div>
+
 					</div>
 				</div>
 			</div>
@@ -353,7 +290,31 @@
 	<script src="libs/waypoints.min.js"></script>
 	<script src="libs/animate-css.js"></script>
 	<script src="libs/jqBootstrapValidation.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
 	<script src="js/common.js"></script>
+	<script type="text/template"  id="items">
+		<div class="mix col-md-3 catalog_item category-<%-cat%>" id="<%-id%>">
+			<img src="<%-img%>" alt="">
+			<div class="port_item_cont">
+				<h3><%-name%></h3>
+				<p><%-price%></p>
+				<a class="popup_content" href="#flo<%-id%>">Посмотреть</a>
+			</div>
+			<div class="hidden">
+				<div class="podrt_descr" id="flo<%-id%>">
+					<img src="<%-img%>" alt="">
+					<h3><%-name%></h3>
+					<h5><%-price%></h5>
+					<p><%-specification%></p>
+					<a  href="#">Заказать</a>
+					<button>Вернуться </button>
+				</div>
+			</div>
+		</div>
+	</script>
+	<script src="js/catalog.js"></script>
+
+
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

@@ -1,9 +1,15 @@
 var isMobile = false;
 $(document).ready(function() {
 
-    $('#catalog_grid').mixItUp();
+    $('#catalog_grid').mixItUp({
+        load: {
+            filter:'.category-1'
+        }
+    });
 
-    $('.s_catalog li').click(function () {
+
+
+    $('.filter_div li').click(function () {
         $('.s_catalog li').removeClass("active");
         $(this).addClass("active");
     });
@@ -16,10 +22,11 @@ $(document).ready(function() {
 
     }
     if (!isMobile) {
-        $('#item1 div').animated("fadeInLeft","fadeOutLeft");
-        $('#item3 div').animated("fadeInRight","fadeOutRight");
+        $('#item1 div').animated("fadeInDown","fadeOutUp");
+        $('#item3 div').animated("fadeInDown","fadeOutUp");
     }
     $('.popup').magnificPopup({type:'image'});
+    $('.popup_content').magnificPopup({type: "inline", midClick: true, closeOnContentClick: true});
     $('.top_text h1').animated("fadeInDown","fadeOutUp");
     $('.top_text p').animated("fadeInUp","fadeOutDown");
     $('.section_heder').animated("fadeInUp", "fadeOutDown");
