@@ -78,3 +78,10 @@ p {
   background-color: #222; }
 .s_descr_wrap p {
   letter-spacing: 4px; }
+
+.s_catalog li {
+  color: #888;
+  letter-spacing: 2px; }
+.s_catalog li.active {
+  color: #222;
+  border-bottom: 1px solid #F9BDFF; }

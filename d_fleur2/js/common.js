@@ -1,13 +1,20 @@
 var isMobile = false;
 $(document).ready(function() {
-    if ($('body').width() <= 768) {
+
+    $('#catalog_grid').mixItUp();
+
+    $('.s_catalog li').click(function () {
+        $('.s_catalog li').removeClass("active");
+        $(this).addClass("active");
+    });
+
+
+    if ($('body').width() <= 986){
         isMobile = true;
     }
-    // и потом если нужен код только для телефона:
     if (isMobile) {
 
     }
-    // или для остальных
     if (!isMobile) {
         $('#item1 div').animated("fadeInLeft","fadeOutLeft");
         $('#item3 div').animated("fadeInRight","fadeOutRight");
