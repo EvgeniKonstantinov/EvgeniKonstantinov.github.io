@@ -1,7 +1,18 @@
+var isMobile = false;
 $(document).ready(function() {
-    $('#item1 div').animated("fadeInLeft","fadeOutLeft");
-    $('#item2 div').animated("fadeInDown","fadeOutUp");
-    $('#item3 div').animated("fadeInRight","fadeOutRight");
+    if ($('body').width() <= 768) {
+        isMobile = true;
+    }
+    // и потом если нужен код только для телефона:
+    if (isMobile) {
+
+    }
+    // или для остальных
+    if (!isMobile) {
+        $('#item1 div').animated("fadeInLeft","fadeOutLeft");
+        $('#item3 div').animated("fadeInRight","fadeOutRight");
+    }
+    $('.popup').magnificPopup({type:'image'});
     $('.top_text h1').animated("fadeInDown","fadeOutUp");
     $('.top_text p').animated("fadeInUp","fadeOutDown");
     $('.section_heder').animated("fadeInUp", "fadeOutDown");
