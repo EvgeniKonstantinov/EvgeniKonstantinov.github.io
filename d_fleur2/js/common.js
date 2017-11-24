@@ -7,8 +7,6 @@ $(document).ready(function() {
         }
     });
 
-
-
     $('.filter_div li').click(function () {
         $('.s_catalog li').removeClass("active");
         $(this).addClass("active");
@@ -38,7 +36,9 @@ $(document).ready(function() {
     heightDetect();
 	$(window).resize(function () {
         heightDetect();
-    })
+    });
+
+    $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
 });
 
 $(window).load(function() {

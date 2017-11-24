@@ -90,3 +90,16 @@ p {
   letter-spacing: 2px; }
 .podrt_descr button {
   letter-spacing: 2px; }
+
+.text-danger {
+  color: rgba(229, 49, 53, 0.89); }
+
+.main_form button {
+  background-color: transparent;
+  border: 1px #222 solid;
+  padding: 0 20px;
+  letter-spacing: 3px; }
+
+.form-group input,
+.form-group textarea {
+  letter-spacing: 2px; }
