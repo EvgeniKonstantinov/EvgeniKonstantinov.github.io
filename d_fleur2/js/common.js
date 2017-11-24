@@ -39,6 +39,7 @@ $(document).ready(function() {
     });
 
     $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+    $(".top_menu ul a").mPageScroll2id();
 });
 
 $(window).load(function() {
