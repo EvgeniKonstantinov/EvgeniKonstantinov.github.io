@@ -248,7 +248,7 @@ body {
     transition: all 0.7s; }
   .s_catalog .catalog_item:hover .port_item_cont {
     opacity: 1;
-    padding-top: 20%; }
+    padding-top: 15%; }
     .s_catalog .catalog_item:hover .port_item_cont h3 {
       color: #fff;
       margin-bottom: 0; }

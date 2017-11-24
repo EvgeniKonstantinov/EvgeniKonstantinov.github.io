@@ -19,6 +19,7 @@ $(document).ready(function() {
         isMobile = true;
     }
     if (isMobile) {
+        $(this)
 
     }
     if (!isMobile) {
