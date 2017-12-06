@@ -3269,7 +3269,11 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-attachment: fixed;
+			background-image: url("images/bg-2.jpg");
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
 		}
 
 		.wrapper.style3-alt {
@@ -3884,7 +3888,7 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("images/bg-1.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
