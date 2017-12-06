@@ -3086,6 +3086,9 @@
 		.spotlights > section:nth-child(3) {
 			background-color: rgba(0, 0, 0, 0.1);
 		}
+		.spotlights > section:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
 
 		.spotlights > section.inactive > .image:before, body.is-loading .spotlights > section > .image:before {
 			opacity: 1;
@@ -3775,7 +3778,7 @@
 			}
 
 			#sidebar nav a:before {
-				background: #42624f;
+				background: rgba(49, 36, 80, 0.9);
 			}
 
 			#sidebar nav a:after {
@@ -3892,6 +3895,7 @@
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
+		height: 100vh;
 	}
 
 		#intro p {
