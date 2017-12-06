@@ -3891,7 +3891,7 @@
 		background-image: url("images/bg-1.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: cover;
 	}
 
 		#intro p {
