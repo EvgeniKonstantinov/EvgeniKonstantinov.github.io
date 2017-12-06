@@ -3285,17 +3285,19 @@
 		.wrapper.style3-alt {
 			background-color: #953d75;
 		}
-
-		.wrapper.style4 {
-			background-attachment: fixed;
-			background-image: url("images/bg_4.jpg");
-			background-position: top right;
-			background-repeat: no-repeat;
-			background-size: cover;
-			height: 80vh;
-			text-align: center;
-			vertical-align: middle !important;
+		@media screen and (min-width: 200px) and (max-width: 5000px){
+			.wrapper.style4 {
+				background-attachment: fixed;
+				background-image: url("images/bg_4.jpg");
+				background-position: top right;
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 80vh;
+				text-align: center;
+				vertical-align: middle !important;
+			}
 		}
+
 
 		.wrapper.style4 > .inner{
 			position: absolute;
