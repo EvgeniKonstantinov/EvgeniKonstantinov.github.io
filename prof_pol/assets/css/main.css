@@ -3538,7 +3538,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #50494f;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3775,14 +3775,14 @@
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #42624f;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #000000, #ffffff);
+				background-image: -webkit-linear-gradient(to right, #000000, #ffffff);
+				background-image: -ms-linear-gradient(to right, #000000, #ffffff);
+				background-image: linear-gradient(to right, #000000, #ffffff);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3888,7 +3888,7 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/bg-1.jpg");
+		background-image: url("images/bg-3.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3897,6 +3897,11 @@
 		#intro p {
 			font-size: 1.25em;
 		}
+
+		#intro> .inner {
+			background-color: rgba(0,0,0,.5);
+		}
+
 
 			@media screen and (max-width: 980px) {
 
@@ -3921,12 +3926,27 @@
 			}
 
 		}
-	#intro2 {
-		background-attachment: fixed;
-		background-image: url("images/bg-2.jpg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: cover;
+	@media screen and (min-width: 1024px) {
+		#intro2 {
+			background-attachment: fixed;
+			background-image: url("images/bg-2.jpg");
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}
+	@media screen and (max-width: 1023px) {
+		#intro2 {
+			background-attachment: fixed;
+			background-color: rgba(0,0,0,.5);
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}
+
+	#intro2> .inner {
+		background-color: rgba(0,0,0,.5);
 	}
 
 	#intro2 p {
@@ -3952,6 +3972,60 @@
 	@media screen and (max-width: 1280px) {
 
 		#intro2 {
+			background-attachment: scroll;
+		}
+
+	}
+
+	@media screen and (min-width: 1024px) {
+		#intro3 {
+			background-attachment: fixed;
+			background-image: url("images/bg-4.jpg");
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}
+	@media screen and (max-width: 1023px) {
+		#intro3 {
+			background-attachment: fixed;
+			background-color: rgba(0,0,0,.5);
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 80vh;
+		}
+	}
+
+	#intro3> .inner {
+		position: absolute;
+		top: 20vh;
+		background-color: rgba(0,0,0,.5);
+	}
+
+	#intro3 p {
+		font-size: 1.25em;
+	}
+
+	@media screen and (max-width: 980px) {
+
+		#intro3 p br {
+			display: none;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#intro3 p {
+			font-size: 1em;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#intro3 {
 			background-attachment: scroll;
 		}
 
